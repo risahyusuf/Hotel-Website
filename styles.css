@@ -1,0 +1,14 @@
+:root {
+--white-color: #FFFFFF;
+--black-color: hsl(0, 0%, 10%);
+--sky-blue-color: #3D97B4;
+--red-color: #EE685F;
+
+
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+}
+
