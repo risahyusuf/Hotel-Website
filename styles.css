@@ -68,6 +68,7 @@ nav {
 .why-choose-us {
     margin-top: 50px;
     padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
     background-color: lightgrey;
 }
@@ -91,12 +92,60 @@ margin-left: 30px;
  }
 
 .special-offers {
-     margin-top: 100px;
+     margin-top: 80px;
     text-align: center;
+}
+
+.offer {
+        padding-top: 11px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .offer-container {
     margin-top: 60px;
     padding-top: 15px;
-    border: 1px solid lightgrey;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.rating {
+    position: absolute;
+    left: 40px;
+    margin-top: 10px;
+}
+
+.favorite{
+    margin-top: 10px;
+    margin-left: -46px;
+    position: absolute;
+}
+
+.f {
+        margin-left: -46px;
+    position: absolute;
+    margin-top: -310px;
+}
+
+.offer h3 {
+    margin-top: 20px;
+    margin-left: 7px;
+    text-align: left;
+}
+.offer h4 {
+    margin-top: 7px;
+    margin-left: 7px;
+    text-align: left;
+}
+
+.price {
+    margin-top: 12px;
+    margin-left: -130px;
+}
+
+.reviews {
+ margin-top: 100px;
+    text-align: center;
 }
