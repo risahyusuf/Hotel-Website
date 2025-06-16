@@ -55,7 +55,8 @@ Contains the logo and social media icons for call, Facebook, YouTube, Instagram 
 - About us
 - Contact
 
-## Design and styling
+## Design and 
+The structure wa made using HTML and JavaScript. all repetitive content (why choose us, special offers, reviews and recent post) were rendered dynamically using JavaScript
 The page is styled using CSS and follows modern design principles;
 - Font families; "Montserrat" for all text.
 - Primary accent colour # (blue) and # (orange)
@@ -66,11 +67,12 @@ The page is styled using CSS and follows modern design principles;
 ## How to run
 - Clone the repository to your local machine
 - Open the index.html file in any modern web browser
-- Ensure the styles.css file and images folder are in the same directory as index.html to render the styles and images correctly.
+- Ensure the styles.css file, script.js and images folder are in the same directory as index.html to render the styles and images correctly.
 
 ## Folder structure
 index.html: contains the structure of the webpage
 styles.css: contains the styling riles for the webpage
+script.js: contains the structure of repetitive content dynamically rendered
 images: contains all the images used
 
 ## Live Demo
