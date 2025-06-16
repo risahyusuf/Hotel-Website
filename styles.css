@@ -41,6 +41,10 @@ nav {
     margin-left: 100px;
 }
 
+.icon img {
+        margin-left: -40px;
+}
+
 .heading-text {
     position: absolute;
     font-size: 30px;
@@ -57,12 +61,15 @@ nav {
 }
 
 .background-image {
+    width: 100%;
         margin-top: 20px;
 }
 
 .search-destination {
     position: absolute;
-    margin-top: -120px;
+       margin-top: 220px;
+    margin-left: -310px;
+    width: 95%;
 }
 
 .why-choose-us {
@@ -109,6 +116,10 @@ margin-left: 30px;
     padding-top: 15px;
     width: 100%;
     margin-left: 20px;
+}
+
+.offer-image {
+    width: 100%;
 }
 
 .rating {

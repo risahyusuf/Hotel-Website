@@ -176,6 +176,70 @@ offerDiv.appendChild(date)
 offerDiv.appendChild(priceImg)
 
 offerContainer.appendChild(offerDiv);
+});
 
+const recentPostsData = [
+    {
+        imageSrc: "images/athens.png",
+        date: "May 23, 2022",
+        timeImageSrc: "images/5 minutes.png",
+        title: "My trip to Athens",
+        description: "It would seem that in a city where Theseus, Plato and Epicurus once walked, the very idea of the subway is alien to the city, but already..."
+    },
+
+    {
+        imageSrc: "images/vilnius resorts.png",
+        date: "May 22, 2022",
+        timeImageSrc: "images/1 minute.png",
+        title: "Vilnius resorts",
+        description: "I haven't seen any resorts in Vilnius, but there are wonderful people and pubs"
+    },
+
+     {
+        imageSrc: "images/plane.png",
+        date: "May 20, 2022",
+        timeImageSrc: "images/5 minutes.png",
+        title: "Tips for flying on a plane",
+        description: "If you have a fear of flying, here's a helpful tip: bring your co-pilot so you can take a nap while he steers the plane for you"
+    }
+];
+
+const recentPostsContainer =
+documebt.querySelector(".recent-posts-container");
+
+recentPostsData.forEach((post) => {
+    const postDiv =("div");
+    postDiv.className ="post";
+
+    const img =
+    document.createElement("img");
+    img.src = post.imageSrc;
+    img.className = "post-image"
+
+    const date =
+    document.createElement("p");
+    date.className = "date";
+    date.textContent = post.date;
+
+    const time =
+    document.createElement("img");
+    time.src = post.timeImageSrc;
+    time.className = "time";
+
+    const h3 =
+    document.createElement("p");
+    h3.textContent = post.title;
+
+    const p =
+    document.createElement("p");
+    p.textContent = post.description;
+
+    postDiv.appendChild(img);
+    postDiv.appendChild(date);
+    postDiv.appendChild(time);
+    postDiv.appendChild(h3);
+    postDiv.appendChild(p);
+
+    recentPostsContainer.appendChild(postDiv);
 });
 });
