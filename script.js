@@ -205,10 +205,11 @@ const recentPostsData = [
 ];
 
 const recentPostsContainer =
-documebt.querySelector(".recent-posts-container");
+document.querySelector(".recent-posts-container");
 
-recentPostsData.forEach((post) => {
-    const postDiv =("div");
+recentPostsData.forEach(post => {
+    const postDiv =
+    document.createElement("div");
     postDiv.className ="post";
 
     const img =
@@ -242,4 +243,52 @@ recentPostsData.forEach((post) => {
 
     recentPostsContainer.appendChild(postDiv);
 });
+
+const mobileMenuHTML = `
+<div id="MobileMenuContainer" class="mobile-menu hidden">
+    <div class="menu-header">
+        <img src="images/exit.png" alt="close" class="menu-close" id="closeMenuBtn" />
+        <img src="images/Your.logo.png" alt="logo" class="menu-logo" />
+        <img src="images/icon.png" alt="icon" class="menu-icon" />
+    </div>
+
+    <ul class="mobile-menu-links">
+        <li>Last Minute Deals</li>
+        <li>Blog</li>
+        <li>About us</li>
+        <li>contacts</li>
+    </ul>
+
+    <div class="menu-options">
+        <span>$</span>
+        <span>RU</span>
+    </div>
+
+    <div class="menu-footer">
+       <img src="images/social.png" alt="Social icons" /> 
+    </div>
+</div>`
+;
+
+document.body.insertAdjacentHTML("beforeend", mobileMenuHTML);
+
+const hamburgerBtn =
+document.getElementById("hamburgerBtn");
+
+const MobileMenu =
+document.getElementById("MobileMenuContainer");
+
+const closeMenuBtn =
+document.getElementById("closeMenuBtn");
+
+hamburgerBtn.addEventListener("click", () => {
+     mobileMenu.classList.remove("hidden");
+    mobileMenu.classList.add("show");
+});
+
+closeMenuBtn.addEventListener("click", () => {
+     mobileMenu.classList.remove("hidden");
+    mobileMenu.classList.add("show");
+});
+
 });
