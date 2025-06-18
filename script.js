@@ -253,15 +253,15 @@ const mobileMenuHTML = `
     </div>
 
     <ul class="mobile-menu-links">
-        <li>Last Minute Deals</li>
-        <li>Blog</li>
-        <li>About us</li>
-        <li>contacts</li>
+        <li><a href="#">Last Minute Deals</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">contacts</a></li>
     </ul>
 
     <div class="menu-options">
-        <span>$</span>
-        <span>RU</span>
+        <image src="images/dollar sign.png" alt="currency" />
+        <image src="images/language.png" alt="language" />
     </div>
 
     <div class="menu-footer">
@@ -272,23 +272,24 @@ const mobileMenuHTML = `
 
 document.body.insertAdjacentHTML("beforeend", mobileMenuHTML);
 
-const hamburgerBtn =
+const HamburgerBtn =
 document.getElementById("hamburgerBtn");
 
 const MobileMenu =
 document.getElementById("MobileMenuContainer");
 
-const closeMenuBtn =
+const CloseMenuBtn =
 document.getElementById("closeMenuBtn");
 
-hamburgerBtn.addEventListener("click", () => {
-     mobileMenu.classList.remove("hidden");
-    mobileMenu.classList.add("show");
+    HamburgerBtn.addEventListener("click", () => {
+     MobileMenu.classList.remove("hidden");
+    MobileMenu.classList.add("show");
 });
 
-closeMenuBtn.addEventListener("click", () => {
-     mobileMenu.classList.remove("hidden");
-    mobileMenu.classList.add("show");
+    CloseMenuBtn.addEventListener("click", () => {
+        console.log("Close button clicked");
+     MobileMenu.classList.remove("hidden");
+    MobileMenu.classList.add("show");
 });
 
 });

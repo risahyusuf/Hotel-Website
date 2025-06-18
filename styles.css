@@ -34,6 +34,10 @@ nav {
      background-color: var(--white-color);
 }
 
+.menu-toggle {
+    cursor: pointer;
+}
+
 .logo {
     margin-left: 13px;
 }
@@ -294,10 +298,15 @@ margin-left: 10px;
 }
 
 .menu-header {
+    margin-bottom: 40px;
 display: flex;
     justify-content: space-between;
      margin-top: 20px;
      margin-left: 10px;
+}
+
+.menu-close {
+    cursor: pointer;
 }
 
 .menu-logo {
@@ -306,4 +315,45 @@ margin-left: 13px;
 
 .menu-icon {
     margin-right: 10px;
+}
+
+.mobile-menu-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.mobile-menu-links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-options {
+    display: flex;
+    gap: 20px;
+    margin-left: 15px;
+}
+
+.menu-footer {
+        margin-left: 15px;
+    margin-top: 150px;
+}
+
+.mobile-menu.hidden {
+display: none;
+}
+
+.mobile-menu.show {
+display: block;
+position: fixed;
+width: 100%;
+height: 100vh;
+top: 0;
+left: 0;
+z-index: 999;
+background-color: var(--white-color);
+
 }
