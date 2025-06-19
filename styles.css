@@ -303,7 +303,17 @@ margin-left: 10px;
     margin-left: 13px;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-footer {
+    width: 150px;
+}
+
 .socials {
+    width: 150px;
     margin-top: 8px;
     margin-bottom: 10px;
 }
