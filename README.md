@@ -80,7 +80,7 @@ images: contains all the images used
 
 ## Live Demo
 Checkout the live version of the project here:
-[render link](https://www.loom.com/share/d2b30f5f03fd446992b529de0ca7e417?sid=5f2c29da-f069-46a4-b8df-e76abb1dca27)
+[https://hotel-website-iwzv.onrender.com](https://www.loom.com/share/d2b30f5f03fd446992b529de0ca7e417?sid=5f2c29da-f069-46a4-b8df-e76abb1dca27)
 
 ## Author
 Name: [Rabia Isah Yusuf] Contact: [risahyusuf@gmail.com] Github: risahyusuf
