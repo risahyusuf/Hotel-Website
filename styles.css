@@ -23,6 +23,7 @@
 body {
     font-family: "montserrat", sans-serif;
     background-color: var(--white-color);
+    overflow-x: hidden;
 }
 nav {
     display: flex;
@@ -65,16 +66,23 @@ nav {
 
 }
 
+.hero-section {
+    position: relative;
+    width: 100%;
+}
+
 .background-image {
-    width: 99%;
+    width: 100%;
+    display: block;
         margin-top: 20px;
 }
 
 .search-destination {
     position: absolute;
-       margin-top: 220px;
-    margin-left: -310px;
-    width: 95%;
+    width: 90%;
+    margin-left: auto;
+    top: 75%;
+    max-width: 500px;
 }
 
 .why-choose-us {
@@ -161,8 +169,9 @@ margin-left: 30px;
 }
 
 .review-container {
+    max-width: 100%;
     width: 100%;
-    margin-left: 10px;
+   padding-left: 5px;
     padding-top: 60px;
     gap: 20px;
     overflow-x: auto;
@@ -185,11 +194,17 @@ margin-left: 70px;
 
 .review-button{
     border: none;
+    padding: 0;
+    margin: 24px auto 0;
+    display: block;
+    background: none;
 }
 
 .review-button img {
-    margin-top: 350px;
-    margin-right: -650px;
+    width: 250px;
+    max-width: 90%;
+    height: auto;
+    display: block;
 }
 
 .recent-posts {
@@ -349,11 +364,10 @@ display: none;
 .mobile-menu.show {
 display: block;
 position: fixed;
-width: 100%;
+width: 100vw;
 height: 100vh;
 top: 0;
 left: 0;
 z-index: 999;
 background-color: var(--white-color);
-
 }

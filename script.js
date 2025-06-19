@@ -287,9 +287,8 @@ document.getElementById("closeMenuBtn");
 });
 
     CloseMenuBtn.addEventListener("click", () => {
-        console.log("Close button clicked");
-     MobileMenu.classList.remove("hidden");
-    MobileMenu.classList.add("show");
+     MobileMenu.classList.remove("show");
+    MobileMenu.classList.add("hidden");
 });
 
 });

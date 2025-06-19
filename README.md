@@ -23,7 +23,7 @@ This project is a responsive website for finding a hotel. It showcases a hotel w
 
 ## Project Features
 ### Header
-- Contains the logo, icon and navigation bar.
+- Contains the logo, icon and navigation bar which toggles to show a list.
 - Contains the Hero section featuring a visually appealing header image of a beautiful resort as the background. Text that mentions they're several thousand apartments for every taste and a search bar to search for the kind of destination you're looking for.
 
 ### Why choose us
@@ -37,7 +37,7 @@ This project is a responsive website for finding a hotel. It showcases a hotel w
 Includes 3 cards showcasing some of their special offers with each card including picture of the apartment, time/duration and price
 
 ### Review
-Contains positive client feedback from 3 clients that have used the service.
+Contains positive client feedback from 3 clients that have used the service and a button to view more reviews.
 
 ### Recent posts
 This section includes posts made recently on the website. Each post including a picture, text, date and time posted.
@@ -49,17 +49,20 @@ This contains a container to type in and submit your email to subscribe to the w
 Contains the logo and social media icons for call, Facebook, YouTube, Instagram and Telegram.
 
 ## Main mobile menu
-- Contains the exit button, logo and icon at the top arranged side by side. Also contains the following listed below;
+- Opens when the menu/hamburger button is clicked.
+- Contains the exit button which closes the menu when clicked, logo and icon at the top arranged side by side. Also contains the following listed below when the menu is opened;
 - Last minute deals
 - Blog
 - About us
 - Contact
+- Currency and language sign
+- Social media icons
 
 ## Design and 
-The structure wa made using HTML and JavaScript. all repetitive content (why choose us, special offers, reviews and recent post) were rendered dynamically using JavaScript
+The structure was made using HTML and JavaScript. all repetitive content (why choose us, special offers, reviews and recent post) and main menu mobile were rendered dynamically using JavaScript
 The page is styled using CSS and follows modern design principles;
 - Font families; "Montserrat" for all text.
-- Primary accent colour # (blue) and # (orange)
+- Primary accent colour #3D97B4 (blue) and #EE685F (red)
 - Background: White -Responsive design
 - Ensures an optimised experience for mobile users.
 - Layout adapts seamlessly for varying screen resolutions.
@@ -71,13 +74,13 @@ The page is styled using CSS and follows modern design principles;
 
 ## Folder structure
 index.html: contains the structure of the webpage
-styles.css: contains the styling riles for the webpage
+styles.css: contains the styling rules for the webpage
 script.js: contains the structure of repetitive content dynamically rendered
 images: contains all the images used
 
 ## Live Demo
 Checkout the live version of the project here:
-[render link](loom video link)
+[render link](https://www.loom.com/share/d2b30f5f03fd446992b529de0ca7e417?sid=5f2c29da-f069-46a4-b8df-e76abb1dca27)
 
 ## Author
 Name: [Rabia Isah Yusuf] Contact: [risahyusuf@gmail.com] Github: risahyusuf
