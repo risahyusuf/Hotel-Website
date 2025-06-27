@@ -79,10 +79,9 @@ script.js: contains the structure of repetitive content dynamically rendered
 images: contains all the images used
 
 ## Live Demo
-Checkout the live version of the project here:
-[https://hotel-website-iwzv.onrender.com]
-Loom video link
-(https://www.loom.com/share/3c5dec0896a64fdcad81641873748042)
+Checkout the live version of the project [here](https://hotel-website-iwzv.onrender.com)
+
+Watch presentation video [here](https://www.loom.com/share/3c5dec0896a64fdcad81641873748042)
 
 ## Author
 Name: [Rabia Isah Yusuf] Contact: [risahyusuf@gmail.com] Github: risahyusuf
